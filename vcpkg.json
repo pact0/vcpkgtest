@@ -7,6 +7,12 @@
     "sqlite3",
     "boost",
     "poco",
-    "qtbase"
+    {
+      "name": "qtbase",
+      "features": [
+        "gui",
+        "widgets"
+      ]
+    }
   ]
 }
