@@ -10,5 +10,6 @@ int main()
 {
     fmt::print("Hello, world!\n");
     printf("%s\n", sqlite3_libversion());
-    spdlog::warn("A") return 0;
+    spdlog::warn("A");
+    return 0;
 }
