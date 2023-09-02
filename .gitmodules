@@ -1,7 +1,6 @@
 [submodule "vcpkg"]
 	path = vcpkg
 	url = https://github.com/microsoft/vcpkg.git
-
 [submodule "qtbase"]
 	path = qtbase
 	url = https://github.com/qt/qtbase.git
