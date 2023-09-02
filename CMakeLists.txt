@@ -5,11 +5,11 @@ project(cpp_template)
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
 
 
-set(QT_VERSION 6)
-set(Qt6_DIR ${PROJECT_SOURCE_DIR}/qtbase/lib/cmake/Qt6)
-set(CMAKE_PREFIX_PATH "${PROJECT_SOURCE_DIR}/qtbase/lib/cmake")
+# set(QT_VERSION 6)
+# set(Qt6_DIR ${PROJECT_SOURCE_DIR}/qtbase/lib/cmake/Qt6)
+# set(CMAKE_PREFIX_PATH "${PROJECT_SOURCE_DIR}/qtbase/lib/cmake")
+# find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
 find_package(spdlog CONFIG REQUIRED)
 # Find dependencies provided by vcpkg (via vcpkg.cmake)
 # find_package(Qt6 REQUIRED COMPONENTS Core)
