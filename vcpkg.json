@@ -2,9 +2,10 @@
   "name": "main",
   "version-string": "latest",
   "dependencies": [
-    "fmt",
+    "spdlog",
     "boost-config",
     "sqlite3",
-    "spdlog"
+    "boost",
+    "poco"
   ]
 }
