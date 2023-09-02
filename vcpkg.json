@@ -6,7 +6,6 @@
     "boost-config",
     "sqlite3",
     "boost",
-    "poco",
-    "qt"
+    "poco"
   ]
 }
