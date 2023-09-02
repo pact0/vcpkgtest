@@ -17,6 +17,10 @@
                     "type": "FILEPATH",
                     "value": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake"
                 }
+            },
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
             }
         }
     ],
