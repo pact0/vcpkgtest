@@ -5,7 +5,6 @@
     "spdlog",
     "boost-config",
     "sqlite3",
-    "boost",
     "poco",
     {
       "name": "qtbase",
