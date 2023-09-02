@@ -7,6 +7,6 @@
     "sqlite3",
     "boost",
     "poco",
-    "qtbase"
+    "qt"
   ]
 }

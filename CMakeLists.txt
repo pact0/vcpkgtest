@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 project(cpp_template)
 
 # Find dependencies provided by vcpkg (via vcpkg.cmake)
-find_package(Qt6 REQUIRED COMPONENTS Core)
+# find_package(Qt6 REQUIRED COMPONENTS Core)
 find_package(unofficial-sqlite3 CONFIG REQUIRED)
 # find_package(fmt CONFIG REQUIRED)
 find_package(spdlog REQUIRED)
