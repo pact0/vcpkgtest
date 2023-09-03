@@ -4,14 +4,6 @@
   "dependencies": [
     "spdlog",
     "boost-config",
-    "sqlite3",
-    "poco",
-    {
-      "name": "qtbase",
-      "features": [
-        "gui",
-        "widgets"
-      ]
-    }
+    "sqlite3"
   ]
 }
