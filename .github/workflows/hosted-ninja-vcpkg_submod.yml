@@ -46,10 +46,10 @@ jobs:
         with:
           submodules: true
 
-      - uses: lukka/get-cmake@latest
+      - uses: lukka/get-cmake
 
       - name: Restore from cache and setup vcpkg executable and data files.
-        uses: lukka/run-vcpkg@latest
+        uses: lukka/run-vcpkg
         with:
           vcpkgJsonGlob: 'vcpkg.json'
 
@@ -60,7 +60,7 @@ jobs:
       #   testPreset: 'ninja-vcpkg'
       #   testPresetAdditionalArgs: "[`--config`, `Release`]"
       - name: Run CMake+vcpkg+Ninja+CTest to build packages and generate/build/test the code.
-        uses: lukka/run-cmake@latest
+        uses: lukka/run-cmake
         with:
           configurePreset: 'ninja-multi-vcpkg'
           buildPreset: 'ninja-vcpkg-release'
